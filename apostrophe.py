@@ -27,3 +27,5 @@ print('Eren Yaeger once said, "If we kill the enemy...will we finally win?".')
 famous_person = "Eren Yaeger"
 message = '"If we kill the enemy...will we finally win?"'
 print(f"{famous_person} once said: {message}.")
+
+import this
