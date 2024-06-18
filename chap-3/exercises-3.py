@@ -49,3 +49,25 @@ del guest_list[0]
 del guest_list[0]
 
 print(guest_list)
+
+# 3-8
+locations = ['oslo', 'amsterdam', 'spain', 'maldives', 'sydney']
+print(locations)
+
+print(sorted(locations))
+print(locations)
+
+print(sorted(locations, reverse=True))
+print(locations)
+
+locations.reverse()
+print(locations)
+
+locations.reverse()
+print(locations)
+
+locations.sort()
+print(locations)
+
+locations.sort(reverse=True)
+print(locations)
