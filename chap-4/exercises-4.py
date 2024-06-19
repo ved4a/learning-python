@@ -9,3 +9,9 @@ pets = ['dog', 'cat', 'bird', 'fish']
 for pet in pets:
     print(f"A {pet} would make a good pet.")
 print('Honestly, anything would make a good pet!')
+
+# 4-3
+for value in range(1,20):
+    print(value)
+
+# 4-4
