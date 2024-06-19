@@ -33,3 +33,12 @@ for three in threes:
 # 4-8 + 4-9
 cubes = [value ** 3 for value in range(1,11)]
 print(cubes)
+
+# 4-13
+buffet_menu = ('toast', 'coffee', 'dosa', 'idli', 'tea')
+for food in buffet_menu:
+    print(food)
+
+buffet_menu = ('toast', 'coffee', 'pancakes', 'idli', 'juice')
+for food in buffet_menu:
+    print(food)
