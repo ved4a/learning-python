@@ -73,5 +73,5 @@ locations.sort(reverse=True)
 print(locations)
 
 popular_series = ['Realm of the Elderlings', 'Faithful and the Fallen', 'Mistborn', 'LOTR']
-print(popular_series[3])
+print(popular_series[2])
 print(popular_series[8]) # IndexError: list index out of range -> soln is to print out the list/length of list to see where the error is
