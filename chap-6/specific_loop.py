@@ -26,3 +26,7 @@ for name in languages_spoken:
 # can also use keys method to check if key exists in dict or no
 if 'krish' not in languages_spoken.keys():
     print('Krish, please take the poll!')
+
+# can also loop through keys in a dictionary in alphabetical order:
+for name in sorted(languages_spoken.keys()):
+    print(f"{name.title()}, thanks for taking the poll!")
